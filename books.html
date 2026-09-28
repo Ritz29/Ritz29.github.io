@@ -11,7 +11,7 @@ a{color:var(--brand)}header{background:#fff;border-bottom:1px solid var(--line)}
 h1{font-size:40px;line-height:1.15;margin:8px 0 12px}h2{font-size:24px;margin:36px 0 6px}.lead{font-size:18px;color:var(--muted);max-width:720px}
 .btn{display:inline-block;background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}.btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card{scroll-margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
 .card h3{margin:0 0 4px;font-size:17px}.by{color:var(--muted);font-size:14px;margin:0 0 8px}
 .chip{display:inline-block;font-size:12px;padding:2px 8px;border-radius:99px;background:#eef2ff;color:#3730a3;margin-right:6px}
 .chip.b{background:#d1fae5;color:#065f46}.chip.i{background:#e0f2fe;color:#075985}.chip.a{background:#ede9fe;color:#5b21b6}
@@ -21,92 +21,95 @@ h1{font-size:40px;line-height:1.15;margin:8px 0 12px}h2{font-size:24px;margin:36
 footer{border-top:1px solid var(--line);margin-top:48px;padding:24px 0;color:var(--muted);font-size:13px;background:#fff}
 @media (max-width:600px){h1{font-size:30px}.nav{gap:12px}}
 </style></head><body>
-<header><div class="wrap nav"><a href="index.html"><img src="logo.svg" alt="Riskwise Invest"></a><span class="sp"></span><a href="index.html" class="">Home</a><a href="books.html" class="on">Recommended books</a></div></header>
+<header><div class="wrap nav"><a href="index.html"><img src="logo.svg" alt="Riskwise Invest"></a><span class="sp"></span><a href="index.html" class="">Home</a><a href="books.html" class="on">Books</a></div></header>
 <main class="wrap">
 <section class="hero"><div class="eyebrow">Keep learning</div><h1>Recommended books</h1>
 <p class="lead">Books that go deeper than the Riskwise Academy, grouped by topic. New to markets? Start with the ones marked
 <b>Start here</b>. The descriptions are our own short summaries.</p>
 <div class="disclosure">As an Amazon Associate I earn from qualifying purchases.</div></section>
-<section class="topic" id="psychology"><h2>Psychology &amp; mindset</h2><p>Why good methods fail in the hands of nervous people, and how to think in probabilities.</p><div class="grid"><div class="card"><h3>Trading in the Zone</h3><p class="by">Mark Douglas</p>
+<section class="topic" id="psychology"><h2>Psychology &amp; mindset</h2><p>Why good methods fail in the hands of nervous people, and how to think in probabilities.</p><div class="grid"><div class="card" id="trading_in_the_zone"><h3>Trading in the Zone</h3><p class="by">Mark Douglas</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
 <p>Explains why accepting risk and thinking in probabilities matters more than finding the perfect setup.</p>
-<a class="buy" data-q="Trading in the Zone Mark Douglas" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>The Disciplined Trader</h3><p class="by">Mark Douglas</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Trading+in+the+Zone+Mark+Douglas" href="https://www.amazon.in/s?k=Trading+in+the+Zone+Mark+Douglas&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="disciplined_trader"><h3>The Disciplined Trader</h3><p class="by">Mark Douglas</p>
 <span class="chip i">Intermediate</span>
 <p>An earlier, deeper look at the mental habits that make traders break their own rules.</p>
-<a class="buy" data-q="The Disciplined Trader Mark Douglas" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>The Psychology of Money</h3><p class="by">Morgan Housel</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+Disciplined+Trader+Mark+Douglas" href="https://www.amazon.in/s?k=The+Disciplined+Trader+Mark+Douglas&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="psychology_of_money"><h3>The Psychology of Money</h3><p class="by">Morgan Housel</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
 <p>Short, readable chapters on how behaviour, not intelligence, decides most financial outcomes.</p>
-<a class="buy" data-q="The Psychology of Money Morgan Housel" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Thinking, Fast and Slow</h3><p class="by">Daniel Kahneman</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+Psychology+of+Money+Morgan+Housel" href="https://www.amazon.in/s?k=The+Psychology+of+Money+Morgan+Housel&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="thinking_fast_slow"><h3>Thinking, Fast and Slow</h3><p class="by">Daniel Kahneman</p>
 <span class="chip i">Intermediate</span>
 <p>The research behind loss aversion, overconfidence and other biases that show up in every trade.</p>
-<a class="buy" data-q="Thinking, Fast and Slow Daniel Kahneman" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Fooled by Randomness</h3><p class="by">Nassim Nicholas Taleb</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Thinking%2C+Fast+and+Slow+Daniel+Kahneman" href="https://www.amazon.in/s?k=Thinking%2C+Fast+and+Slow+Daniel+Kahneman&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="fooled_by_randomness"><h3>Fooled by Randomness</h3><p class="by">Nassim Nicholas Taleb</p>
 <span class="chip i">Intermediate</span>
 <p>Why a lucky streak looks like skill, and how to tell the difference in your own results.</p>
-<a class="buy" data-q="Fooled by Randomness Nassim Nicholas Taleb" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Best Loser Wins</h3><p class="by">Tom Hougaard</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Fooled+by+Randomness+Nassim+Nicholas+Taleb" href="https://www.amazon.in/s?k=Fooled+by+Randomness+Nassim+Nicholas+Taleb&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="best_loser_wins"><h3>Best Loser Wins</h3><p class="by">Tom Hougaard</p>
 <span class="chip i">Intermediate</span>
 <p>A trader&#x27;s view on handling losses well, which he argues is the real skill in trading.</p>
-<a class="buy" data-q="Best Loser Wins Tom Hougaard" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="technique"><h2>Trading techniques</h2><p>Charts, setups, risk and position sizing: how traders actually decide.</p><div class="grid"><div class="card"><h3>Technical Analysis of the Financial Markets</h3><p class="by">John J. Murphy</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Best+Loser+Wins+Tom+Hougaard" href="https://www.amazon.in/s?k=Best+Loser+Wins+Tom+Hougaard&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="technique"><h2>Trading techniques</h2><p>Charts, setups, risk and position sizing: how traders actually decide.</p><div class="grid"><div class="card" id="ta_financial_markets"><h3>Technical Analysis of the Financial Markets</h3><p class="by">John J. Murphy</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
 <p>A thorough, well-organised reference to trends, patterns, indicators and risk: the classic starting point.</p>
-<a class="buy" data-q="Technical Analysis of the Financial Markets John J. Murphy" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Trade Like a Stock Market Wizard</h3><p class="by">Mark Minervini</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Technical+Analysis+of+the+Financial+Markets+John+J.+Murphy" href="https://www.amazon.in/s?k=Technical+Analysis+of+the+Financial+Markets+John+J.+Murphy&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="trade_like_wizard"><h3>Trade Like a Stock Market Wizard</h3><p class="by">Mark Minervini</p>
 <span class="chip i">Intermediate</span>
 <p>A growth-stock swing method built on trend templates, tight risk and cutting losses quickly.</p>
-<a class="buy" data-q="Trade Like a Stock Market Wizard Mark Minervini" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>How to Make Money in Stocks</h3><p class="by">William J. O&#x27;Neil</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Trade+Like+a+Stock+Market+Wizard+Mark+Minervini" href="https://www.amazon.in/s?k=Trade+Like+a+Stock+Market+Wizard+Mark+Minervini&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="how_to_make_money_stocks"><h3>How to Make Money in Stocks</h3><p class="by">William J. O&#x27;Neil</p>
 <span class="chip i">Intermediate</span>
 <p>The CAN SLIM approach: combining strong earnings growth with chart bases and market direction.</p>
-<a class="buy" data-q="How to Make Money in Stocks William J. O&#x27;Neil" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Japanese Candlestick Charting Techniques</h3><p class="by">Steve Nison</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=How+to+Make+Money+in+Stocks+William+J.+O%27Neil" href="https://www.amazon.in/s?k=How+to+Make+Money+in+Stocks+William+J.+O%27Neil&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="japanese_candlestick"><h3>Japanese Candlestick Charting Techniques</h3><p class="by">Steve Nison</p>
 <span class="chip i">Intermediate</span>
 <p>The standard guide to candlestick patterns and how to combine them with other signals.</p>
-<a class="buy" data-q="Japanese Candlestick Charting Techniques Steve Nison" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Encyclopedia of Chart Patterns</h3><p class="by">Thomas N. Bulkowski</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Japanese+Candlestick+Charting+Techniques+Steve+Nison" href="https://www.amazon.in/s?k=Japanese+Candlestick+Charting+Techniques+Steve+Nison&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="encyclopedia_chart_patterns"><h3>Encyclopedia of Chart Patterns</h3><p class="by">Thomas N. Bulkowski</p>
 <span class="chip a">Advanced</span>
 <p>Pattern-by-pattern statistics on how often chart patterns actually worked, and how far they ran.</p>
-<a class="buy" data-q="Encyclopedia of Chart Patterns Thomas N. Bulkowski" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>The New Trading for a Living</h3><p class="by">Alexander Elder</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Encyclopedia+of+Chart+Patterns+Thomas+N.+Bulkowski" href="https://www.amazon.in/s?k=Encyclopedia+of+Chart+Patterns+Thomas+N.+Bulkowski&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="new_trading_for_living"><h3>The New Trading for a Living</h3><p class="by">Alexander Elder</p>
 <span class="chip i">Intermediate</span>
 <p>Brings together psychology, method and money management, with a clear system for record-keeping.</p>
-<a class="buy" data-q="The New Trading for a Living Alexander Elder" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Trade Your Way to Financial Freedom</h3><p class="by">Van K. Tharp</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+New+Trading+for+a+Living+Alexander+Elder" href="https://www.amazon.in/s?k=The+New+Trading+for+a+Living+Alexander+Elder&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="trade_your_way"><h3>Trade Your Way to Financial Freedom</h3><p class="by">Van K. Tharp</p>
 <span class="chip i">Intermediate</span>
 <p>Focuses on expectancy and position sizing: why how much you buy matters as much as what you buy.</p>
-<a class="buy" data-q="Trade Your Way to Financial Freedom Van K. Tharp" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="stories"><h2>Trader stories</h2><p>What successful traders have in common, told through their own careers.</p><div class="grid"><div class="card"><h3>Market Wizards</h3><p class="by">Jack D. Schwager</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Trade+Your+Way+to+Financial+Freedom+Van+K.+Tharp" href="https://www.amazon.in/s?k=Trade+Your+Way+to+Financial+Freedom+Van+K.+Tharp&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="stories"><h2>Trader stories</h2><p>What successful traders have in common, told through their own careers.</p><div class="grid"><div class="card" id="market_wizards"><h3>Market Wizards</h3><p class="by">Jack D. Schwager</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
 <p>Interviews with top traders; very different methods, the same discipline about risk.</p>
-<a class="buy" data-q="Market Wizards Jack D. Schwager" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Reminiscences of a Stock Operator</h3><p class="by">Edwin Lefèvre</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Market+Wizards+Jack+D.+Schwager" href="https://www.amazon.in/s?k=Market+Wizards+Jack+D.+Schwager&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="reminiscences"><h3>Reminiscences of a Stock Operator</h3><p class="by">Edwin Lefèvre</p>
 <span class="chip i">Intermediate</span>
 <p>A century-old story of a speculator whose lessons on trends, patience and tips still apply.</p>
-<a class="buy" data-q="Reminiscences of a Stock Operator Edwin Lefèvre" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="investing"><h2>Investing &amp; fundamentals</h2><p>Owning good businesses: valuation, quality and patience.</p><div class="grid"><div class="card"><h3>The Intelligent Investor</h3><p class="by">Benjamin Graham</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Reminiscences+of+a+Stock+Operator+Edwin+Lef%C3%A8vre" href="https://www.amazon.in/s?k=Reminiscences+of+a+Stock+Operator+Edwin+Lef%C3%A8vre&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="investing"><h2>Investing &amp; fundamentals</h2><p>Owning good businesses: valuation, quality and patience.</p><div class="grid"><div class="card" id="intelligent_investor"><h3>The Intelligent Investor</h3><p class="by">Benjamin Graham</p>
 <span class="chip i">Intermediate</span>
 <p>The foundation of value investing: margin of safety and treating the market as a moody partner.</p>
-<a class="buy" data-q="The Intelligent Investor Benjamin Graham" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>One Up On Wall Street</h3><p class="by">Peter Lynch</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+Intelligent+Investor+Benjamin+Graham" href="https://www.amazon.in/s?k=The+Intelligent+Investor+Benjamin+Graham&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="one_up_on_wall_street"><h3>One Up On Wall Street</h3><p class="by">Peter Lynch</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
 <p>How ordinary investors can spot good companies early, explained with humour and examples.</p>
-<a class="buy" data-q="One Up On Wall Street Peter Lynch" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Common Stocks and Uncommon Profits</h3><p class="by">Philip A. Fisher</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=One+Up+On+Wall+Street+Peter+Lynch" href="https://www.amazon.in/s?k=One+Up+On+Wall+Street+Peter+Lynch&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="common_stocks_uncommon"><h3>Common Stocks and Uncommon Profits</h3><p class="by">Philip A. Fisher</p>
 <span class="chip i">Intermediate</span>
 <p>What makes an outstanding business worth holding for many years, and how to research one.</p>
-<a class="buy" data-q="Common Stocks and Uncommon Profits Philip A. Fisher" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>The Most Important Thing</h3><p class="by">Howard Marks</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Common+Stocks+and+Uncommon+Profits+Philip+A.+Fisher" href="https://www.amazon.in/s?k=Common+Stocks+and+Uncommon+Profits+Philip+A.+Fisher&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="most_important_thing"><h3>The Most Important Thing</h3><p class="by">Howard Marks</p>
 <span class="chip i">Intermediate</span>
 <p>Short essays on risk, market cycles and second-level thinking.</p>
-<a class="buy" data-q="The Most Important Thing Howard Marks" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>The Dhandho Investor</h3><p class="by">Mohnish Pabrai</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+Most+Important+Thing+Howard+Marks" href="https://www.amazon.in/s?k=The+Most+Important+Thing+Howard+Marks&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="dhandho_investor"><h3>The Dhandho Investor</h3><p class="by">Mohnish Pabrai</p>
 <span class="chip b">Beginner</span>
 <p>A simple framework for low-risk, high-return bets, drawn from Indian business traditions.</p>
-<a class="buy" data-q="The Dhandho Investor Mohnish Pabrai" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="personal"><h2>Mutual funds &amp; personal finance</h2><p>Building the core of your money: funds, costs and habits, with an Indian focus.</p><div class="grid"><div class="card"><h3>Let&#x27;s Talk Money</h3><p class="by">Monika Halan</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+Dhandho+Investor+Mohnish+Pabrai" href="https://www.amazon.in/s?k=The+Dhandho+Investor+Mohnish+Pabrai&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section><section class="topic" id="personal"><h2>Mutual funds &amp; personal finance</h2><p>Building the core of your money: funds, costs and habits, with an Indian focus.</p><div class="grid"><div class="card" id="lets_talk_money"><h3>Let&#x27;s Talk Money + Let&#x27;s Talk Mutual Funds (box set)</h3><p class="by">Monika Halan</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
-<p>A practical Indian guide to budgeting, insurance, mutual funds and building a money system.</p>
-<a class="buy" data-q="Let&#x27;s Talk Money Monika Halan" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Coffee Can Investing</h3><p class="by">Saurabh Mukherjea, Rakshit Ranjan, Pranab Uniyal</p>
+<p>Two practical Indian guides: building a money system (budget, insurance, investing), then choosing and holding mutual funds well.</p>
+<a class="buy" data-url="https://www.amazon.in/dp/9362136635" href="https://www.amazon.in/dp/9362136635?tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="coffee_can_investing"><h3>Coffee Can Investing</h3><p class="by">Saurabh Mukherjea, Rakshit Ranjan, Pranab Uniyal</p>
 <span class="chip b">Beginner</span>
 <p>Buying high-quality Indian companies and leaving them alone for a decade.</p>
-<a class="buy" data-q="Coffee Can Investing Saurabh Mukherjea" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>The Little Book of Common Sense Investing</h3><p class="by">John C. Bogle</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=Coffee+Can+Investing+Saurabh+Mukherjea" href="https://www.amazon.in/s?k=Coffee+Can+Investing+Saurabh+Mukherjea&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="little_book_common_sense"><h3>The Little Book of Common Sense Investing</h3><p class="by">John C. Bogle</p>
 <span class="chip b">Beginner</span><span class="chip">Start here</span>
 <p>The case for low-cost index funds, from the founder of the first index fund for individuals.</p>
-<a class="buy" data-q="The Little Book of Common Sense Investing John C. Bogle" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card"><h3>Value Investing and Behavioral Finance</h3><p class="by">Parag Parikh</p>
+<a class="buy" data-url="https://www.amazon.in/s?k=The+Little+Book+of+Common+Sense+Investing+John+C.+Bogle" href="https://www.amazon.in/s?k=The+Little+Book+of+Common+Sense+Investing+John+C.+Bogle&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div><div class="card" id="value_investing_behavioral"><h3>Value Investing and Behavioral Finance</h3><p class="by">Parag Parikh</p>
 <span class="chip i">Intermediate</span>
 <p>How investor biases create opportunities, with examples from Indian markets.</p>
-<a class="buy" data-q="Value Investing and Behavioral Finance Parag Parikh" href="#" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section>
+<a class="buy" data-url="https://www.amazon.in/s?k=Value+Investing+and+Behavioral+Finance+Parag+Parikh" href="https://www.amazon.in/s?k=Value+Investing+and+Behavioral+Finance+Parag+Parikh&amp;tag=riskwiseinves-21" target="_blank" rel="sponsored noopener">View on Amazon</a></div></div></section>
 <h2>Free resources</h2><p class="note">Official and well-known free learning material.</p><div class="grid"><a class="card" style="text-decoration:none;color:inherit" href="https://zerodha.com/varsity/" target="_blank" rel="noopener"><h3>Zerodha Varsity ↗</h3><p>Free modules on markets, technical and fundamental analysis, options, personal finance.</p></a><a class="card" style="text-decoration:none;color:inherit" href="https://investor.sebi.gov.in/" target="_blank" rel="noopener"><h3>SEBI investor website ↗</h3><p>The regulator&#x27;s investor education, warnings and complaint links (SCORES).</p></a><a class="card" style="text-decoration:none;color:inherit" href="https://www.amfiindia.com/" target="_blank" rel="noopener"><h3>AMFI ↗</h3><p>Mutual fund basics, the list of registered distributors, and fund data.</p></a><a class="card" style="text-decoration:none;color:inherit" href="https://www.nseindia.com/" target="_blank" rel="noopener"><h3>NSE ↗</h3><p>Exchange rules, index details and investor protection information.</p></a><a class="card" style="text-decoration:none;color:inherit" href="https://www.bseindia.com/" target="_blank" rel="noopener"><h3>BSE ↗</h3><p>Exchange rules, corporate announcements and investor education.</p></a><a class="card" style="text-decoration:none;color:inherit" href="https://www.nism.ac.in/" target="_blank" rel="noopener"><h3>NISM ↗</h3><p>Study material for the securities-market certifications used by the industry.</p></a></div>
 <script>
 // Put your Amazon Associates tracking ID between the quotes, e.g. "riskwise-21".
-const AMAZON_TAG = "";
+const AMAZON_TAG = "riskwiseinves-21";
 document.querySelectorAll("a.buy").forEach(a => {
-  a.href = "https://www.amazon.in/s?k=" + encodeURIComponent(a.dataset.q) + (AMAZON_TAG ? "&tag=" + encodeURIComponent(AMAZON_TAG) : "");
+  const u = a.dataset.url;
+  a.href = u + (AMAZON_TAG ? (u.includes("?") ? "&" : "?") + "tag=" + encodeURIComponent(AMAZON_TAG) : "");
 });
+// Opened from the app with #book-id: highlight that book.
+if (location.hash) { const c = document.querySelector(location.hash); if (c) c.style.outline = "3px solid #4f46e5"; }
 </script>
 </main>
 <footer><div class="wrap">© 2026 Riddhipratim Mitra · Riskwise Invest is an educational tool. Nothing on this site or in the app is investment advice; markets carry risk, so do your own research or consult a SEBI-registered adviser.</div></footer>
